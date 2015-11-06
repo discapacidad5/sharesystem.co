@@ -1,0 +1,6 @@
+User-agent: Googlebot
+User-agent: Googlebot-Mobile
+User-agent: Mediapartners-Google
+User-agent: Googlebot-Image
+Disallow:
+

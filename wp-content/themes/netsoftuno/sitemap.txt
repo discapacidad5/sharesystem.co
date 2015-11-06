@@ -1,0 +1,13 @@
+http://networksoft.mx/
+http://networksoft.mx/empresa/
+http://networksoft.mx/empresa/#collapseOne
+http://networksoft.mx/empresa/#collapseTwo
+http://networksoft.mx/empresa/#collapsethree
+http://networksoft.mx/software-demos/
+http://networksoft.mx/software-demos/#collapseOne
+http://networksoft.mx/software-demos/#collapseTwo
+http://networksoft.mx/software-demos/#collapseThree
+http://networksoft.mx/software-demos/#collapseFour
+http://networksoft.mx/software-demos/#collapseFive
+http://networksoft.mx/consultoria/
+http://networksoft.mx/contacto/

@@ -1,0 +1,284 @@
+/*Theme Name: Net Soft UNO
+Theme URI: www.google.com
+Description: Another WordPress Theme
+Version: 1.0
+Author: Miguel Angel Bonachea Soto
+Author URI: www.google.com
+Tags: networking, multilevel marketing
+*/
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+    h3{font-size: 16px;}
+}
+
+@media (max-width: @screen-md) {
+    body{font-size: 14px;}
+    h3{font-size: 20px;}
+}
+.modal-body .alert{
+	margin:5px;
+}
+
+.content{
+	margin-bottom:100px;
+    margin-top: 10em;
+}
+
+.header .navbar {
+	min-height:90px;
+}
+
+.header .navbar-brand {
+	height: 50px;
+}
+
+.header .navbar-brand a{
+	border:none;
+}
+
+.header .tagline {
+	display:inline-block;
+	min-width:200px;
+	height:20px;
+	font-size:12px;
+	padding-left:25px;
+}
+
+.header .secondary-nav{
+	margin-top:20px;
+}
+
+.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus {
+	color:#fff;
+	background-color:#4E9AC9;
+}
+
+.searchbar {
+	margin-top:15px;
+}
+
+.video-panel {
+	margin-top:20px;
+	overflow:hidden;
+	color:#fff;
+	border:none;
+}
+
+.login-panel {
+	margin-top:20px;
+	height:250px;
+	overflow:hidden;
+}
+
+.jumbotron {
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.cta-btn {
+	margin-top:10px;
+}
+
+.demo-alert-container {
+	min-height:40px;
+}
+
+/*==========================  HOME PAGE CAROUSEL OVERRIDES =================================*/
+#home_carousel-left .carousel-control.left{
+	background-image:linear-gradient(to right, rgba(0, 0, 0, 0.1) 0px, transparent 100%);
+}
+
+#home_carousel-right .carousel-control.right{
+	background-image:linear-gradient(to left, rgba(0, 0, 0, 0.1) 0px, transparent 100%);
+}
+
+#home_carousel-caption{
+	padding-top:0px;
+	width:100%;
+	right:0%;
+	left:0%;
+	margin-bottom: -20px;
+	background-image:linear-gradient(to top, rgba(0, 0, 0, 0.9) 0px, rgba(0, 0, 0, 0.5));
+}
+
+#home_carousel-caption h3{
+	font-size:30px;
+}
+
+#home_carousel-caption a {
+	color:#fff;
+	text-decoration: none;
+}
+
+#home_carousel-indicators {
+    bottom: 0px;
+}
+
+
+
+/*==========================  SHARETHIS BUTTON OVERRIDES =================================*/
+.share_this_btns {
+	max-width:650px;
+	border-bottom:thin solid #ccc;
+	padding:10px;
+	margin:10px auto 30px auto;
+}
+
+
+.stButton .stButton_gradient {
+height: 24px !important;
+}
+
+.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices {
+height: 24px !important;
+}
+
+
+/*==========================  POST AND PAGE STYLES =================================*/
+
+.margin-none {
+	margin:0;
+}
+
+.padding-none {
+	padding:0;
+}
+
+.footer {
+	margin-bottom:0px;
+}
+
+
+.video-panel, .login-panel{
+	max-width:550px;
+}
+
+.post-img-full {
+	margin:10px auto;
+	max-width:650px;
+}
+
+.post-title-single{
+	margin:10px auto;
+	max-width:650px;
+}
+
+.post-content-single {
+	margin:10px auto;
+	max-width:650px;
+}
+
+.page-img-full {
+	margin:10px auto;
+	max-width:850px;
+}
+
+.page-title {
+	margin:10px auto;
+	max-width:850px;
+}
+
+.page-content {
+	margin:10px auto;
+	max-width:850px;
+}
+
+
+.more_posts_links {
+	max-width:650px;
+	margin:20px auto 30px auto;
+	min-height:190px;
+	padding-bottom:20px;
+	border-bottom:thin solid #ccc;
+}
+
+.more_posts_links .post_link{
+	margin-top:25px;
+}
+
+.post-call-to-action {
+	max-width:650px;
+	margin:20px auto;
+}
+
+.category-post-img {
+	padding-top:25px;
+	padding-right:20px;
+}	
+.category-post-row {
+	border-bottom:thin solid #ccc;
+	padding:20px;
+}
+
+.blog-title {
+	padding-left:20px;
+}
+
+
+
+/*==========================  CONTACT FORM STYLES =================================*/
+
+#contact-form-contiainer{
+
+}
+
+#contact-form {
+	background:#ccc;
+	padding:20px;
+}
+
+#contact-select-pais {
+	color:#666;
+	background-color:#fff;
+	min-height:200px;
+}
+
+#contact-info {
+	color:#666;
+	background-color:#fff;
+	min-height:200px;
+}
+
+#contact-office-img {
+	color:#666;
+	background-color:#fff;
+	min-height:200px;
+}
+
+#contact-office-img img {
+	width:360px;
+}
+
+#contact-map {
+	color:#666;
+	background-color:#fff;
+	min-height:200px;
+}
+
+#contact-form-display {
+	color:#666;
+	background:#fff;
+	padding:10px;
+	min-height:70px;
+}
+
+.contact-flag-img {
+	width:100px;
+	margin:0px auto;
+}
+
+.contacto-link {
+	margin:10px auto;
+}
+
+/* 2nd level */
+.tree > li > label {
+  padding:10px 15px;
+}
+
+/* 3rd level */
+.tree > li > ul > li > a {
+  color:#cc0000;
+  font-size:10pt;
+  margin-left:15px;
+}
